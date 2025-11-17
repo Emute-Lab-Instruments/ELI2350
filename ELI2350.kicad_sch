@@ -338,6 +338,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -8981,16 +9088,6 @@
 		)
 		(uuid "1300c50a-2d28-4239-b2de-e0c940f046c2")
 	)
-	(text "https://jlcpcb.com/parts/componentSearch?searchTxt=pogo\n"
-		(exclude_from_sim no)
-		(at 410.718 179.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17fa64ec-1479-4ce8-901d-64807c1ecd26")
-	)
 	(text "76\n"
 		(exclude_from_sim no)
 		(at 215.392 82.55 0)
@@ -9001,16 +9098,6 @@
 			(justify left)
 		)
 		(uuid "1bdf4ad1-6dfe-4bc9-ab81-c95190edd021")
-	)
-	(text "add debug connector on back\n"
-		(exclude_from_sim no)
-		(at 326.898 130.556 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "23b68f68-04b9-4f7b-b78f-52d5f22037c6")
 	)
 	(text "12MHz"
 		(exclude_from_sim no)
@@ -12839,6 +12926,16 @@
 		)
 		(uuid "81f70ab7-359a-4a00-a2d4-41aeb01dbbfc")
 	)
+	(label "+3V3_SIG"
+		(at 191.77 314.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "820ec652-dc6e-4656-84a7-054dfcdc639e")
+	)
 	(label "SWDIO"
 		(at 210.82 148.59 180)
 		(effects
@@ -13214,6 +13311,16 @@
 			(justify left bottom)
 		)
 		(uuid "c28eb773-8bcb-44fd-b5d3-4d4f722d00cb")
+	)
+	(label "GPIO2"
+		(at 199.39 335.28 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3a14ec9-2675-461d-a125-8c42067d8cc0")
 	)
 	(label "GPIO15"
 		(at 241.3 123.19 0)
@@ -14166,7 +14273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22390096"
+		(property "JLC" "C22390096"
 			(at 461.01 130.81 0)
 			(effects
 				(font
@@ -14684,6 +14791,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 309.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "261992eb-1127-45a5-8d46-80cfd26b43c1")
+		(property "Reference" "TP5"
+			(at 215.9 305.3079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 215.9 307.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 218.44 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4519ebb-715d-4071-a0e3-c551a16625e4")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_31")
 		(lib_id "power:GND")
 		(at 420.37 215.9 0)
@@ -14884,6 +15058,73 @@
 			(project "MEMLSystemBoard_0_1"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 314.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cabf475-bffc-48a5-b953-69900cc0cd3a")
+		(property "Reference" "TP4"
+			(at 194.31 310.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 194.31 312.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 196.85 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd104793-687e-4cbc-aa49-956a9cc67939")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -15151,6 +15392,72 @@
 			(project "MEMLSystemBoard_0_1"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 316.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "333bd962-89b6-40be-af4e-779c0597735f")
+		(property "Reference" "#PWR060"
+			(at 165.1 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 320.3631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b0038c7-ec86-4938-9e44-fb9fb9f4d7de")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -15502,6 +15809,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d308860-1abc-4b35-a581-a73412ca24cb")
+		(property "Reference" "TP1"
+			(at 123.19 312.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.19 315.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 125.73 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61f4e9b1-c187-4baa-82ce-78032677edc0")
+		)
+		(instances
+			(project ""
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_10")
 		(lib_id "power:GND")
 		(at 443.23 106.68 270)
@@ -15639,7 +16013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C380198"
+		(property "JLC" "C380198"
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -16412,6 +16786,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 165.1 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50312e62-8a77-41c7-bc2c-aa3e0d52d105")
+		(property "Reference" "TP3"
+			(at 167.64 311.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 167.64 314.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 170.18 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 165.1 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2303f61-d7db-4a48-b1d5-91db44c5c87a")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 73.66 271.78 90)
@@ -17022,6 +17463,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 120.65 317.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60509c95-1eef-4f1e-9af0-940de5941082")
+		(property "Reference" "#PWR057"
+			(at 120.65 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 120.65 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 120.65 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fde4deac-3d62-4848-8d99-23f3ab57bfaa")
+		)
+		(instances
+			(project ""
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 431.8 229.87 0)
 		(mirror y)
@@ -17511,7 +18018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C380198"
+		(property "JLC" "C380198"
 			(at 265.43 59.69 0)
 			(effects
 				(font
@@ -18535,6 +19042,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C42415655"
+			(at 226.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "66"
 			(uuid "4c6ae80f-4e19-48fc-a252-753674b277e4")
 		)
@@ -18840,7 +19356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C190862"
+		(property "JLC" "C190862"
 			(at 444.5 222.25 0)
 			(effects
 				(font
@@ -18948,6 +19464,15 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/TexasInstruments-TLV76733DRVR/C2848334"
+			(at 144.145 365.633 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C2848334"
 			(at 144.145 365.633 0)
 			(effects
 				(font
@@ -19466,6 +19991,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 318.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cdcf283-a978-4abc-a9a0-b25bd9fb96e1")
+		(property "Reference" "#PWR058"
+			(at 143.51 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1e66ca-d6af-494f-9e04-eb9d605b31f1")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "emutelab:WAFER-ZH1.5-2PWB")
 		(at 334.01 68.58 0)
 		(unit 1)
@@ -19538,7 +20129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C3029422"
+		(property "JLC" "C3029422"
 			(at 334.01 68.58 0)
 			(effects
 				(font
@@ -19912,6 +20503,15 @@
 			)
 		)
 		(property "Description" "1A Step-Down Converter with DCS-Control, fixed 5.0V output, 3-17V input voltage, WSON-8"
+			(at 144.78 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C97534"
 			(at 144.78 276.86 0)
 			(effects
 				(font
@@ -20891,7 +21491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C3029422"
+		(property "JLC" "C3029422"
 			(at 302.26 68.58 0)
 			(effects
 				(font
@@ -21226,6 +21826,71 @@
 			(project "rp2350_stamp_xl"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V1")
+		(at 213.36 309.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c224efbd-920a-4664-983a-579b66784277")
+		(property "Reference" "#PWR059"
+			(at 213.36 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.1V"
+			(at 213.36 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 213.36 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac08b189-d683-41e9-a6ca-b7eda97d6eb8")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -22307,6 +22972,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C2848334"
+			(at 59.436 368.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5a2eed5-f49c-4bb4-8f5f-afb3c898d061")
 		)
@@ -22775,6 +23449,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C7294611"
+			(at 203.2 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e62bde3-1d6c-4d5a-9ed6-3e01ef2cff66")
 		)
@@ -22857,6 +23540,140 @@
 			(project "rp2350_stamp_xl"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 335.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3ad9071-064a-4fab-9d73-2f6fea658ca2")
+		(property "Reference" "TP6"
+			(at 201.93 330.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 201.93 333.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 204.47 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "991e5291-9d05-40bd-9159-3e86c5e208d2")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4ebf208-3f17-4483-b326-1f4cee619d4b")
+		(property "Reference" "TP2"
+			(at 146.05 314.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 316.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 148.59 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e700a385-9595-441f-8819-ba08a51167be")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

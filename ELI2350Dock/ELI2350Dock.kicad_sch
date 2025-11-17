@@ -7250,7 +7250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "emutelab:CONN-SMD_HC-PBB23L-60DP-0.5V8-G2-01"
+		(property "Footprint" "emutelab:CONN-SMD_HC-PBB23L-60DP-0.5V10-G2-01"
 			(at 62.23 67.31 0)
 			(effects
 				(font
