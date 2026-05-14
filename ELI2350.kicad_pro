@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.5,
-          "width": 0.775
+          "height": 0.25,
+          "width": 0.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -601,7 +601,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerb",
+      "plot": "svg",
       "pos_files": "gerb",
       "specctra_dsn": "",
       "step": "stamp_xl_long.step",

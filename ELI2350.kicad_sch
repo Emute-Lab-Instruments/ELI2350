@@ -2641,6 +2641,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_17"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_17_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_17_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_18"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_18_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_18_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_2"
 			(power)
 			(pin_numbers
@@ -7512,7 +7714,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "emutelab:SKTDLHE010"
+		(symbol "emutelab:SKSCLAE010"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7532,7 +7734,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProLib_pcs_2025-10-28:KEY-SMD_SKTDLHE010"
+			(property "Footprint" "ProLib_pcs_2025-11-18(1):SW-SMD_4P-L3.5-W2.9-P1.30-LS4.8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7541,7 +7743,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200409/C380198_178C729B1AFCBF15D3CDD9052567B65D.pdf"
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/SKSCLAE010/141733.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7550,7 +7752,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Circuit:SPST Actuator Style:Rectangle button Mounting Style:卧贴 With Lamp:- Mechanical Life:-"
+			(property "Description" "Circuit:SPST Actuator Style:Rectangular Button Mounting Type:Surface Mount, Right Angle Length:3.5mm Width:2.9mm Switch Height:1.25mm Contact Current:50mA Voltage Rating:12V With Lamp:- Life:-"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7559,7 +7761,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "SKTDLHE010"
+			(property "Manufacturer Part" "SKSCLAE010"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7577,7 +7779,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C380198"
+			(property "Supplier Part" "C130445"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7595,7 +7797,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part Name" "SKTDLHE010"
+			(property "LCSC Part Name" "3.5*2.9*1.25mm 卧贴 轻触开关"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7604,69 +7806,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SKTDLHE010_1_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SKSCLAE010_1_0"
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -4.572) (xy -0.254 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.064) (xy -0.762 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy -1.27 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 1.524) (xy -2.032 0.508)
+						(xy 0 1.778) (xy 0 6.35)
 					)
 					(stroke
 						(width 0)
@@ -7677,8 +7820,79 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 0 1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -4.064) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.27) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -8.89) (xy -5.08 -8.89)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -7688,7 +7902,25 @@
 					)
 				)
 				(pin input line
-					(at -5.08 0 0)
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -8.89 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -7706,16 +7938,16 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "GND"
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "4"
 						(effects
 							(font
 								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7724,7 +7956,7 @@
 					)
 				)
 				(pin input line
-					(at 5.08 0 180)
+					(at 7.62 -8.89 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -9561,6 +9793,10 @@
 		(uuid "2d8db8b3-ae4e-4843-a731-7923465e973b")
 	)
 	(no_connect
+		(at 130.81 137.16)
+		(uuid "3d8b04f5-346b-4898-b62d-26ca02d7d51f")
+	)
+	(no_connect
 		(at 468.63 171.45)
 		(uuid "3e249acd-fce9-43bd-acb2-c3ffbbfb0044")
 	)
@@ -9571,6 +9807,10 @@
 	(no_connect
 		(at 468.63 90.17)
 		(uuid "904e440a-a519-44a1-b30a-a60cb3ef465d")
+	)
+	(no_connect
+		(at 275.59 59.69)
+		(uuid "d9914add-22d5-4d2e-b9b4-b04c51e939d6")
 	)
 	(no_connect
 		(at 55.88 284.48)
@@ -10796,6 +11036,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 133.35) (xy 205.232 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cad334-3b0f-49ec-8b57-a3cfb6ca53af")
+	)
+	(wire
+		(pts
 			(xy 190.5 161.29) (xy 194.31 161.29)
 		)
 		(stroke
@@ -11116,16 +11366,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 133.35) (xy 205.232 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "900a5270-0c28-498a-a92b-3fb752b20f97")
-	)
-	(wire
-		(pts
 			(xy 59.436 378.587) (xy 59.436 375.666)
 		)
 		(stroke
@@ -11243,6 +11483,16 @@
 			(type default)
 		)
 		(uuid "9e28b39a-7a77-4674-a662-aa94fcf4e85d")
+	)
+	(wire
+		(pts
+			(xy 146.05 133.35) (xy 146.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e920d0b-e421-4ed2-9248-cfd586e18c37")
 	)
 	(wire
 		(pts
@@ -14068,6 +14318,125 @@
 		)
 	)
 	(symbol
+		(lib_id "emutelab:SKSCLAE010")
+		(at 267.97 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a5b0e9-ea25-4aca-9b27-3382eeecd4d9")
+		(property "Reference" "SW3"
+			(at 267.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "emutelab:SW-SMD_4P-L3.5-W2.9-P1.30-LS4.8"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SKSCLAE010/141733.html"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Circuit:SPST Actuator Style:Rectangular Button Mounting Type:Surface Mount, Right Angle Length:3.5mm Width:2.9mm Switch Height:1.25mm Contact Current:50mA Voltage Rating:12V With Lamp:- Life:-"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLAE010"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE(阿尔卑斯阿尔派)"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C130445"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "3.5*2.9*1.25mm 卧贴 轻触开关"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d3fe11a7-fa82-47e2-8a1a-812fead8d414")
+		)
+		(pin "2"
+			(uuid "2171937d-3103-46fb-9f20-b52968fba8a1")
+		)
+		(pin "1"
+			(uuid "faaf5a36-23d4-40bf-864c-b1928f26e80e")
+		)
+		(pin "3"
+			(uuid "4604747a-dca6-4486-b9c1-08049c232f93")
+		)
+		(instances
+			(project ""
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 78.232 360.172 0)
 		(mirror y)
@@ -14136,7 +14505,7 @@
 	(symbol
 		(lib_name "GND_15")
 		(lib_id "power:GND")
-		(at 97.79 142.24 0)
+		(at 82.55 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14145,7 +14514,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ad00c77-740c-49e3-9ae5-0d509a5820cc")
 		(property "Reference" "#PWR055"
-			(at 97.79 148.59 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +14523,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 147.32 0)
+			(at 82.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14162,7 +14531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 142.24 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,7 +14540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 142.24 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 142.24 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,75 +14956,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_34")
-		(lib_id "power:GND")
-		(at 167.64 133.35 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20b7e7d3-dbd3-4b7f-a4ea-e3bbfa547621")
-		(property "Reference" "#PWR026"
-			(at 161.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8136aa45-307f-49d8-9b8f-0dee3097970a")
-		)
-		(instances
-			(project "MEMLSystemBoard_0_1"
-				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_31")
 		(lib_id "power:GND")
 		(at 421.132 252.73 0)
@@ -14919,6 +15219,74 @@
 			(project ""
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_18")
+		(lib_id "power:GND")
+		(at 130.81 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a35f015-737b-4e40-bcef-705706b62664")
+		(property "Reference" "#PWR026"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e1f4b0c-a63c-4d15-8de2-4a0e3c31b654")
+		)
+		(instances
+			(project ""
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15263,7 +15631,7 @@
 	(symbol
 		(lib_name "GND_16")
 		(lib_id "power:GND")
-		(at 90.17 133.35 0)
+		(at 74.93 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15272,7 +15640,7 @@
 		(fields_autoplaced yes)
 		(uuid "32a6af23-3577-4496-9923-d3da3fe2465a")
 		(property "Reference" "#PWR056"
-			(at 90.17 139.7 0)
+			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15281,7 +15649,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 138.43 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15289,7 +15657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 133.35 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15298,7 +15666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 133.35 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15307,7 +15675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 133.35 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15943,122 +16311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "emutelab:SKTDLHE010")
-		(at 172.72 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "405f1e92-e1ce-4105-8b7c-0131dd485f91")
-		(property "Reference" "SW2"
-			(at 172.72 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "emutelab:KEY-SMD_SKTDLHE010"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200409/C380198_178C729B1AFCBF15D3CDD9052567B65D.pdf"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit:SPST Actuator Style:Rectangle button Mounting Style:卧贴 With Lamp:- Mechanical Life:-"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SKTDLHE010"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPSALPINE(阿尔卑斯阿尔派)"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C380198"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "SKTDLHE010"
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ccbcdf10-d22b-4286-94e7-9d782c1c7a6e")
-		)
-		(pin "3"
-			(uuid "845e9e1a-2ec5-4eab-97b5-d11edae5d614")
-		)
-		(pin "1"
-			(uuid "233deca0-4ca5-4b42-aa50-035528940055")
-		)
-		(instances
-			(project "ELI2350"
-				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 69.85 271.78 90)
 		(mirror x)
@@ -16188,6 +16440,74 @@
 			(project "rp2350_stamp_xl"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_17")
+		(lib_id "power:GND")
+		(at 146.05 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42e74785-eab7-4a8a-9505-9f147fe5a86a")
+		(property "Reference" "#PWR06"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4431cbfc-3183-4126-ae33-a9d91a173d62")
+		)
+		(instances
+			(project ""
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16427,7 +16747,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 90.17 130.81 0)
+		(at 74.93 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16436,7 +16756,7 @@
 		(fields_autoplaced yes)
 		(uuid "489d6e9d-98a5-49d3-914b-5fec18d0a940")
 		(property "Reference" "H2"
-			(at 92.71 128.2699 0)
+			(at 77.47 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +16765,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 92.71 130.8099 0)
+			(at 77.47 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,7 +16774,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 90.17 130.81 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,7 +16783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 130.81 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16792,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 90.17 130.81 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17942,122 +18262,6 @@
 			(project "MEMLSystemBoard_0_1"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "emutelab:SKTDLHE010")
-		(at 265.43 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ed3af07-dbb2-476f-95a4-eaa14dda0f13")
-		(property "Reference" "SW1"
-			(at 265.43 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 265.43 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "emutelab:KEY-SMD_SKTDLHE010"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200409/C380198_178C729B1AFCBF15D3CDD9052567B65D.pdf"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit:SPST Actuator Style:Rectangle button Mounting Style:卧贴 With Lamp:- Mechanical Life:-"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SKTDLHE010"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPSALPINE(阿尔卑斯阿尔派)"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C380198"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "SKTDLHE010"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53560b0d-667f-4efd-9fd0-9065637df87b")
-		)
-		(pin "3"
-			(uuid "513451b4-b3e8-4b96-b956-774955a1fe4a")
-		)
-		(pin "1"
-			(uuid "81b7cf3f-dbf4-441e-8147-b6cf45d78370")
-		)
-		(instances
-			(project ""
-				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -21206,73 +21410,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 167.64 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2652774-c142-426d-9f5c-f9ccd201d146")
-		(property "Reference" "#PWR06"
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eccb1a2f-3cc6-44ec-9757-9deb8b7ea6c2")
-		)
-		(instances
-			(project "ELI2350"
-				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 72.39 331.47 270)
 		(unit 1)
@@ -21542,7 +21679,7 @@
 	(symbol
 		(lib_name "GND_34")
 		(lib_id "power:GND")
-		(at 270.51 59.69 90)
+		(at 275.59 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21551,7 +21688,7 @@
 		(fields_autoplaced yes)
 		(uuid "b88feb73-4dd1-4163-9c26-279f2f6f7edf")
 		(property "Reference" "#PWR053"
-			(at 276.86 59.69 0)
+			(at 281.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21560,7 +21697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 59.6899 90)
+			(at 279.4 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21569,7 +21706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 59.69 0)
+			(at 275.59 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21578,7 +21715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 59.69 0)
+			(at 275.59 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21587,7 +21724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 59.69 0)
+			(at 275.59 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21748,6 +21885,125 @@
 			(project "rp2350_stamp_xl"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "emutelab:SKSCLAE010")
+		(at 138.43 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beba5f5f-f36a-4d83-a7bf-57a958502b72")
+		(property "Reference" "SW1"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "emutelab:SW-SMD_4P-L3.5-W2.9-P1.30-LS4.8"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SKSCLAE010/141733.html"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Circuit:SPST Actuator Style:Rectangular Button Mounting Type:Surface Mount, Right Angle Length:3.5mm Width:2.9mm Switch Height:1.25mm Contact Current:50mA Voltage Rating:12V With Lamp:- Life:-"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLAE010"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE(阿尔卑斯阿尔派)"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C130445"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "3.5*2.9*1.25mm 卧贴 轻触开关"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "13b90b5f-55e3-4306-84c4-3579b5c97a1d")
+		)
+		(pin "2"
+			(uuid "250876e4-0f77-4e25-9de7-575358b5a025")
+		)
+		(pin "1"
+			(uuid "887f845e-80fa-4152-9874-57f5c69be74a")
+		)
+		(pin "3"
+			(uuid "4546c49b-a5f9-4732-99c5-56d340521edd")
+		)
+		(instances
+			(project "ELI2350"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -23431,7 +23687,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7294611"
+		(property "LCSC" "C7294610"
 			(at 203.2 157.48 90)
 			(effects
 				(font
@@ -23449,7 +23705,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C7294611"
+		(property "JLC" "C7294610"
 			(at 203.2 157.48 90)
 			(effects
 				(font
@@ -23682,7 +23938,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 260.35 62.23 0)
+		(at 260.35 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23691,7 +23947,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4f7f1dc-3536-418a-a3ee-eaa82b770394")
 		(property "Reference" "#PWR05"
-			(at 260.35 68.58 0)
+			(at 254 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23700,15 +23956,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 67.31 0)
+			(at 256.54 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 62.23 0)
+			(at 260.35 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23717,7 +23974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 62.23 0)
+			(at 260.35 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23726,7 +23983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 62.23 0)
+			(at 260.35 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23880,7 +24137,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 97.79 139.7 0)
+		(at 82.55 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23889,7 +24146,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f78052-98b7-4d68-8f8b-c0e8b86246c8")
 		(property "Reference" "H1"
-			(at 100.33 137.1599 0)
+			(at 85.09 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23898,7 +24155,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 100.33 139.6999 0)
+			(at 85.09 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23907,7 +24164,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 97.79 139.7 0)
+			(at 82.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23916,7 +24173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 139.7 0)
+			(at 82.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23925,7 +24182,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 97.79 139.7 0)
+			(at 82.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23973,7 +24230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.9652 269.24 0)
 			(effects
 				(font

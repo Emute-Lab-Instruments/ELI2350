@@ -1,4 +1,4 @@
-26301580008916647
+26305106831148189
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104286,6 +104286,13 @@ CONN-SMD_HC-PBB23L-60DP-0.5V8-G2-01
 66
 66
 emutelab
+CONN-SMD_HC-PBB23L-60DP-0.5V10-G2-01
+
+
+0
+66
+66
+emutelab
 CONN-TH_DIN-504B-M10
 
 
@@ -104453,6 +104460,13 @@ Through hole pin header THT 1x08 2.54mm single row
 0
 8
 8
+emutelab
+SW-SMD_4P-L3.5-W2.9-P1.30-LS4.8
+
+
+0
+4
+4
 emutelab
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 
